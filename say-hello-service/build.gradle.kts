@@ -7,7 +7,7 @@ plugins {
     kotlin("plugin.spring") version "1.2.71"
 }
 
-group = "ribbon-service"
+group = "say-hello-service"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
