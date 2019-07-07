@@ -1,5 +1,6 @@
-package com.example.demo
+package com.example.demo.controller
 
+import com.example.demo.config.RibbonConfiguration
 import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RequestMapping
