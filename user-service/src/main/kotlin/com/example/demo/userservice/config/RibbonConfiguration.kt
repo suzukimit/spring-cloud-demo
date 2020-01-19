@@ -1,4 +1,4 @@
-package com.example.demo.config
+package com.example.demo.userservice.config
 
 import com.netflix.loadbalancer.AvailabilityFilteringRule
 import com.netflix.loadbalancer.IPing

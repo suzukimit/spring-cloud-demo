@@ -1,6 +1,6 @@
-package com.example.demo.controller
+package com.example.demo.userservice.controller
 
-import com.example.demo.config.RibbonConfiguration
+import com.example.demo.userservice.config.RibbonConfiguration
 import org.springframework.web.bind.annotation.RestController
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RequestMapping
