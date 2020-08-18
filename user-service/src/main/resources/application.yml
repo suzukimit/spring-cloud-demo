@@ -8,6 +8,5 @@ server:
 say-hello:
   ribbon:
     eureka:
-      enabled: false
-    listOfServers: localhost:8090,localhost:9092,localhost:9999
+      enabled: true
     ServerListRefreshInterval: 15000

@@ -16,11 +16,12 @@ repositories {
 }
 
 dependencies {
-    implementation("org.springframework.cloud:spring-cloud-starter-netflix-ribbon")
-    implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
-    implementation("org.jetbrains.kotlin:kotlin-reflect")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    compile("org.springframework.cloud:spring-cloud-starter-netflix-ribbon")
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("com.fasterxml.jackson.module:jackson-module-kotlin")
+    compile("org.jetbrains.kotlin:kotlin-reflect")
+    compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    compile("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
